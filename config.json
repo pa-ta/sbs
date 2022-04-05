@@ -1,8 +1,7 @@
 {
-	"title": "The Road Not Taken",
+	"title": "Дао Дэ Цзин",
 	"files": [
-		"the-road-not-taken/robert-frost.md",
-		"the-road-not-taken/hana-zantovska.md",
-		"the-road-not-taken/tomas-jacko.md"
+		"tao-te-ching/yan-hin-shun1.md",
+		"tao-te-ching/yan-hin-shun2.md"
 	]
 }
