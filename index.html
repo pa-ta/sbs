@@ -37,8 +37,8 @@
       </div>
       <div ng-show="pick" class="pick">
         <div class="pick-in">
-          <div id="too-few" ng-hide="! tooFew">There is no escape.</div>
-          <div id="too-many" ng-hide="! tooMany">You can only compare five translations at the moment. Choose wisely.</div>
+          <div id="too-few" ng-hide="! tooFew">Выберите, пожалуйста, хотя бы один перевод.</div>
+          <div id="too-many" ng-hide="! tooMany">Вы можете сравнивать только пять переводов одновременно</div>
           <table>
             <tr>
               <th ng-repeat="attribute in metaKeys" ng-bind-html="attribute"></th>
