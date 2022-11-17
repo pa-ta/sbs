@@ -17,8 +17,8 @@
     <div class="pure-menu pure-menu-open pure-menu-horizontal menu-main">
       <ul>
         <li ng-repeat="link in links"><a href="" ng-click="display(link.display)" ng-bind-html="link.text"></a></li>
-        <li><a href="" ng-click="flipPick()"><i class="material-icons">menu</i><span>Сравнить переводы</span></a></li>
-        <li><a href="" ng-click="showPage('about')"><i class="material-icons">star</i><span>О проекте</span></a></li>
+        <li><a href="" ng-click="flipPick()"><i class="material-icons">menu</i><span>Compare translations</span></a></li>
+        <li><a href="" ng-click="showPage('about')"><i class="material-icons">star</i><span>About</span></a></li>
       </ul>
     </div>
     <div ng-controller="ComparisonController" class="cols-{{columns}}">
@@ -37,8 +37,8 @@
       </div>
       <div ng-show="pick" class="pick">
         <div class="pick-in">
-          <div id="too-few" ng-hide="! tooFew">Выберите, пожалуйста, хотя бы один перевод.</div>
-          <div id="too-many" ng-hide="! tooMany">Вы можете сравнивать только пять переводов одновременно</div>
+          <div id="too-few" ng-hide="! tooFew">Please select at least one translation</div>
+          <div id="too-many" ng-hide="! tooMany">You can only compare five translations at the moment</div>
           <table>
             <tr>
               <th ng-repeat="attribute in metaKeys" ng-bind-html="attribute"></th>
