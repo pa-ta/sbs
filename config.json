@@ -1,8 +1,20 @@
 {
 	"title": "Tao Te Ching - translations comparison",
+	"links": [{
+		"text": "English",
+		"display": { "Language": [ "en" ] }
+	}, {
+		"text": "Russian",
+		"display": { "Language": [ "ru" ] }
+	}, {
+		"text": "Ukrainian",
+		"display": { "Language": [ "ua" ] }
+	}],
 	"files": [
 		"tao-te-ching/yan-hin-shun-1950.md",
 		"tao-te-ching/yan-hin-shun-1972.md",
 		"tao-te-ching/maslov.md"
-	]
+	],
+	"display": { "Language": [ "cs" ] },
+	"metaKeys": [ "Author", "Title", "Year", "Language" ]
 }
