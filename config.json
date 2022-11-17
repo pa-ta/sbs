@@ -15,6 +15,6 @@
 		"tao-te-ching/yan-hin-shun-1972.md",
 		"tao-te-ching/maslov.md"
 	],
-	"display": { "Language": [ "cs" ] },
-	"metaKeys": [ "Author", "Title", "Year", "Language" ]
+	"display": { "Language": [ "ru" ] },
+	"metaKeys": [ "Author", "Year", "Language" ]
 }
