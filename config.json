@@ -1,9 +1,9 @@
 {
 	"title": "Tao Te Ching - translations comparison",
-	"links": /*[{
+	"links": /* */[{
 		"text": "English",
 		"display": { "Language": [ "en" ] }
-	},*/ {
+	},/* */ {
 		"text": "Russian",
 		"display": { "Language": [ "ru" ] }
 	}, {
